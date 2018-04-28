@@ -27,21 +27,12 @@ Output
 import os
 import sys
 
+
 #
 # Complete the aVeryBigSum function below.
 #
 def aVeryBigSum(n, ar):
-    array=[]
-    sum=0
-    for i in range(int(n-1)):
-        x = int(input())
-        array.append(x)
-
-    for j in range(int(n)):
-        sum+=array[j]
-    print (str(sum))
-    return sum
-
+    return sum(ar)
 
 if __name__ == '__main__':
 
