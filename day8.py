@@ -1,7 +1,7 @@
 dict = {}
 n= int(input())
 for _ in range(n):
-    a,b = input().strip().split()
+    a,b = input().strip().split() #divide the string in two, 
     dict.update({a:b})
 
 #print ('things now \n')
