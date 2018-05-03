@@ -1,6 +1,5 @@
 #!/bin/python3
 n = int(input().strip())
-arr=[]
 pos =0
 neg=0
 zer=0
